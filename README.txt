@@ -6,6 +6,7 @@ FILES:
 - work.html     Work page
 - contact.html  Contact page
 - styles.css    Main responsive stylesheet
+- script.js     Vanilla JavaScript navbar dropdown behavior
 
 HOW TO OPEN:
 1. Keep all files in the same folder.
@@ -62,3 +63,14 @@ Example:
 href="https://github.com/yourusername/ProductManagement"
 
 Each project card will open the GitHub repository in a new browser tab.
+
+
+JAVASCRIPT DOM ACTIVITY:
+- Added a Projects dropdown to the navbar on all pages.
+- The dropdown contains three project links.
+- Uses document.querySelector(), addEventListener(), and classList.toggle().
+- Dropdown is hidden by default and opens/closes on click.
+- Bonus: clicking outside closes the menu.
+- Bonus: arrow changes between down/up when the menu opens/closes.
+- Responsive: works with the existing mobile navigation.
+- No JavaScript frameworks or libraries are used.

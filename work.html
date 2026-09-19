@@ -56,34 +56,30 @@
 
     <!-- NAVIGATION LINKS -->
     <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="work.html" class="active">Work</a></li>
 
-      <li>
-        <a href="index.html">
-          Home
-        </a>
-      </li>
-
-      <li>
-        <a href="about.html">
-          About
-        </a>
-      </li>
-
-      <li>
-        <a
-          href="work.html"
-          class="active"
+      <li class="dropdown">
+        <button
+          id="dropdownBtn"
+          class="dropdown-btn"
+          type="button"
+          aria-haspopup="true"
+          aria-expanded="false"
+          aria-controls="dropdownMenu"
         >
-          Work
-        </a>
+          Projects <span class="dropdown-arrow" aria-hidden="true">▼</span>
+        </button>
+
+        <ul id="dropdownMenu" class="dropdown-menu">
+          <li><a href="work.html#product-management">ProductManagement</a></li>
+          <li><a href="work.html#gamehub">gamehub</a></li>
+          <li><a href="work.html#testproduct-api">testproductAPI</a></li>
+        </ul>
       </li>
 
-      <li>
-        <a href="contact.html">
-          Contact
-        </a>
-      </li>
-
+      <li><a href="contact.html">Contact</a></li>
     </ul>
 
   </nav>
@@ -174,6 +170,7 @@
         ====================================== -->
 
         <a
+          id="product-management"
           href="https://github.com/jhonsumalpongrama-maker/ProductManagement"
           target="_blank"
           rel="noopener noreferrer"
@@ -257,6 +254,7 @@
         ====================================== -->
 
         <a
+          id="gamehub"
           href="https://github.com/jhonsumalpongrama-maker/gamehub"
           target="_blank"
           rel="noopener noreferrer"
@@ -340,6 +338,7 @@
         ====================================== -->
 
         <a
+          id="testproduct-api"
           href="https://github.com/jhonsumalpongrama-maker/testproductAPI"
           target="_blank"
           rel="noopener noreferrer"
@@ -515,6 +514,7 @@
 </footer>
 
 
+  <script src="script.js"></script>
 </body>
 
 </html>
