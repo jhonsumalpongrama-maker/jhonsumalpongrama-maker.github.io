@@ -1,0 +1,1 @@
+Place your profile.jpg in this folder (public/profile.jpg).
